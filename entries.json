@@ -1,0 +1,161 @@
+{
+  "nextEntryId": 36,
+  "nodes": [
+    {
+      "id": "4",
+      "name": "Scene",
+      "type": null,
+      "children": [
+        {
+          "id": "0",
+          "name": "Scene",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Textures",
+      "type": null,
+      "children": [
+        {
+          "id": "20",
+          "name": "Decor",
+          "type": null,
+          "children": [
+            {
+              "id": "1",
+              "name": "SpaceTileSet_modified",
+              "type": "tileSet"
+            },
+            {
+              "id": "3",
+              "name": "MainShip",
+              "type": "tileMap"
+            },
+            {
+              "id": "21",
+              "name": "SpaceTileSet_base",
+              "type": "tileSet"
+            },
+            {
+              "id": "14",
+              "name": "SAS",
+              "type": "tileMap"
+            },
+            {
+              "id": "24",
+              "name": "invisibleWall",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "name": "NewShip",
+          "type": "tileSet"
+        },
+        {
+          "id": "10",
+          "name": "Background",
+          "type": "sprite"
+        },
+        {
+          "id": "12",
+          "name": "Box",
+          "type": "sprite"
+        },
+        {
+          "id": "19",
+          "name": "Player",
+          "type": null,
+          "children": [
+            {
+              "id": "7",
+              "name": "Spaceman",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Scripts",
+      "type": null,
+      "children": [
+        {
+          "id": "8",
+          "name": "Player",
+          "type": null,
+          "children": [
+            {
+              "id": "9",
+              "name": "PlayerMovement",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "name": "SAS",
+          "type": null,
+          "children": [
+            {
+              "id": "26",
+              "name": "boxMovement",
+              "type": "script"
+            },
+            {
+              "id": "13",
+              "name": "boxCreation",
+              "type": "script"
+            },
+            {
+              "id": "23",
+              "name": "boxGeneration",
+              "type": "script"
+            },
+            {
+              "id": "30",
+              "name": "boxTools",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "name": "Machine",
+          "type": null,
+          "children": [
+            {
+              "id": "29",
+              "name": "Oxygen",
+              "type": "script"
+            },
+            {
+              "id": "32",
+              "name": "Reactor",
+              "type": "script"
+            },
+            {
+              "id": "34",
+              "name": "MachineYellow",
+              "type": "script"
+            },
+            {
+              "id": "35",
+              "name": "MachineGreen",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    }
+  ]
+}
